@@ -3,8 +3,9 @@
   "version": "1.0.2",
   "description": "Set of JS utilities",
   "scripts": {
-    "lib": "npx rimraf ./lib && npx mkdirp ./lib && babel --presets sui ./src --out-dir ./lib",
-    "prepare": "npm run lib"
+    "lib": "npx rimraf ./lib && npx mkdirp ./lib && babel ./src --out-dir ./lib",
+    "prepare": "npm run lib",
+    "test": "jest"
   },
   "keywords": [],
   "author": "Rafael Moral <rafamp89@gmail.com>",
@@ -17,8 +18,22 @@
     "url": "https://github.com/rmoralp/rm-js/issues"
   },
   "devDependencies": {
-    "babel-cli": "6.24.1",
-    "babel-preset-sui": "1"
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@s-ui/lint": "^2.20.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "chai": "^4.2.0",
+    "jest": "^23.6.0",
+    "regenerator-runtime": "^0.13.1",
+    "sinon": "^7.2.2",
+    "sinon-chai": "^3.3.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "./node_modules/@s-ui/lint/eslintrc.js"
+    ]
   },
   "homepage": "https://github.com/rmoralp/rm-js/blob/master/README.md"
 }
