@@ -1,6 +1,8 @@
 # rm-js
 > Set of useful js utilities
 
+[regex](#regex)
+
 ```sh
 $ npm install @rmoral/rm-js --save
 ```
