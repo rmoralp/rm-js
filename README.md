@@ -2,7 +2,9 @@
 > Set of useful js utilities
 
 - [Functions](#functions)
-    - [pipe](#pipe)
+    - [Pipe](#pipe)
+- [Strings](#strings)
+    - [Object to query string](#object-to-query-string)
 - [Validation Methods](#validation-methods)
 - [regex](#regex)
 
