@@ -1,11 +1,21 @@
 # rm-js
 > Set of useful js utilities
 
-[regex](#regex)
+- [Functions](#functions)
+    - [pipe](#pipe)
+- [Validation Methods](#validation-methods)
+- [regex](#regex)
+
+---
+
+# Docs
+
+> Install using [`npm`](https://www.npmjs.com/)
 
 ```sh
 $ npm install @rmoral/rm-js --save
 ```
+
 ## Functions
 
 ### pipe
