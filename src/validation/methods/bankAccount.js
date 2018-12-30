@@ -28,7 +28,7 @@ export function isValidBankAccount(value = '') {
     .replace(/\s/g, '')
 
   if (newIban.search(/^[A-Z]{2}/gi) < 0) {
-    return
+    return false
   }
 
   // Move first 4 characters to end

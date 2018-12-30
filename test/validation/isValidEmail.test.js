@@ -1,7 +1,7 @@
 import {expect} from 'chai'
 import {isValidEmail} from '../../src/validation'
 
-describe('isValidEmail', function () {
+describe('[Validation#Method] isValidEmail', function () {
   const EMAIL = 'rafamp89@gmail.com'
   const WRONG_EMAIL = 'name@again@example.com'
   

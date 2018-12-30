@@ -19,7 +19,7 @@ $ npm install @rmoral/rm-js --save
 ## Functions
 
 ### pipe
-Consist of a chain of processing functions, where the output of each element is the input of next
+> Consist of a chain of processing functions, where the output of each element is the input of next
 
 ```js
 import {pipe} from @rmoral/rm-js/lib/functions
@@ -30,6 +30,20 @@ pipe(
     add1,
     add1
 )(0)
+```
+
+## Strings
+
+## Object to query string
+> Convert plain object to query string
+
+```js
+import {objectToQueryString} from @rmoral/rm-js/lib/string
+
+objectToQueryString({
+    name: 'John',
+    age: 30
+})
 ```
 
 ## Validation Methods

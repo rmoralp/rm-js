@@ -1,7 +1,7 @@
 import {expect} from 'chai'
 import {isValidBankAccount} from '../../src/validation'
 
-describe('isValidBankAccount', function () {
+describe('[Validation#Method] isValidBankAccount', function () {
     const BANK_ACCOUNT = 'ES7921000813610123456789'
     const FAKE_BANK_ACCOUNT = 'ES7921000813610123450000'
 
