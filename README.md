@@ -38,7 +38,7 @@ pipe(
 ## Strings
 
 ### Object to query string
-> Convert plain object to query string
+> Convert object to query string. `addQueryPrefix` is true by default (`?` at the beginning)
 
 ```js
 import {toQueryString} from @rmoral/rm-js/lib/string
@@ -52,7 +52,7 @@ toQueryString({
 ```
 
 ### Query string to object
-> Convert plain object to query string
+> Convert query string to object
 
 ```js
 import {parseQueryString} from @rmoral/rm-js/lib/string
