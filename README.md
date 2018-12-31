@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/%40rmoral%2Frm-js.svg)](https://badge.fury.io/js/%40rmoral%2Frm-js)
+
 # rm-js
 > Set of useful js utilities
 
