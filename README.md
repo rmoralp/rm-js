@@ -5,6 +5,7 @@
     - [Pipe](#pipe)
 - [Strings](#strings)
     - [Object to query string](#object-to-query-string)
+    - [Query string to object](#query-string-to-object)
 - [Validation Methods](#validation-methods)
 - [regex](#regex)
 
@@ -36,7 +37,7 @@ pipe(
 
 ## Strings
 
-## Object to query string
+### Object to query string
 > Convert plain object to query string
 
 ```js
@@ -50,7 +51,7 @@ toQueryString({
 }, addQueryPrefix)
 ```
 
-## Query string to object
+### Query string to object
 > Convert plain object to query string
 
 ```js
