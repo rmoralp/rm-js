@@ -35,5 +35,8 @@
       "./node_modules/@s-ui/lint/eslintrc.js"
     ]
   },
-  "homepage": "https://github.com/rmoralp/rm-js/blob/master/README.md"
+  "homepage": "https://github.com/rmoralp/rm-js/blob/master/README.md",
+  "dependencies": {
+    "qs": "^6.6.0"
+  }
 }

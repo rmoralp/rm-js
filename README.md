@@ -38,12 +38,23 @@ pipe(
 > Convert plain object to query string
 
 ```js
-import {objectToQueryString} from @rmoral/rm-js/lib/string
+import {toQueryString} from @rmoral/rm-js/lib/string
 
-objectToQueryString({
+const addQueryPrefix = true
+
+toQueryString({
     name: 'John',
     age: 30
-})
+}, addQueryPrefix)
+```
+
+## Query string to object
+> Convert plain object to query string
+
+```js
+import {parseQueryString} from @rmoral/rm-js/lib/string
+
+parseQueryString('?name=John&age=30')
 ```
 
 ## Validation Methods

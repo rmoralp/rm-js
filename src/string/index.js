@@ -1,1 +1,2 @@
-export {objectToQueryString} from './modules/objectToQueryString'
+export {toQueryString} from './modules/toQueryString'
+export {parseQueryString} from './modules/parseQueryString'
