@@ -1,8 +1,11 @@
 [![npm version](https://badge.fury.io/js/%40rmoral%2Frm-js.svg)](https://badge.fury.io/js/%40rmoral%2Frm-js)
 
-# Utilities
+# rm-js
 
-- [Install](#docs)
+> [Configuration guide](#docs)
+
+**Index**
+
 - [Functions](#functions)
     - [Pipe](#pipe)
 - [Strings](#strings)
