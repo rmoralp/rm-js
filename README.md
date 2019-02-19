@@ -1,4 +1,4 @@
-[![npm version](https://badge.fury.io/js/%40rmoral%2Frm-js.svg)](https://badge.fury.io/js/%40rmoral%2Frm-js) [![Maintainability](https://api.codeclimate.com/v1/badges/cda10a7779e8ff06ec9c/maintainability)](https://codeclimate.com/github/rmoralp/rm-js/maintainability)
+[![npm version](https://badge.fury.io/js/%40rmoral%2Frm-js.svg?a)](https://badge.fury.io/js/%40rmoral%2Frm-js) [![Maintainability](https://api.codeclimate.com/v1/badges/cda10a7779e8ff06ec9c/maintainability)](https://codeclimate.com/github/rmoralp/rm-js/maintainability)
 
 # rm-js
 
