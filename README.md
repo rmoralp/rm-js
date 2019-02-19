@@ -2,7 +2,9 @@
 
 # rm-js
 
-> Set of useful js utilities
+> [Configuration guide](#docs)
+
+**Index**
 
 - [Functions](#functions)
   - [Pipe](#pipe)
