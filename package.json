@@ -37,6 +37,7 @@
   },
   "homepage": "https://github.com/rmoralp/rm-js/blob/master/README.md",
   "dependencies": {
+    "@babel/polyfill": "^7.2.5",
     "qs": "^6.6.0"
   }
 }
