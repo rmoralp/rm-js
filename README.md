@@ -7,6 +7,7 @@
 **Index**
 
 - [Functions](#functions)
+  - [Async Pipe](#asyncPipe)
   - [Pipe](#pipe)
 - [Strings](#strings)
   - [Object to query string](#object-to-query-string)
