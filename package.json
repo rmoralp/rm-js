@@ -20,6 +20,7 @@
   "devDependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.2.2",
+    "@babel/polyfill": "^7.2.5",
     "@babel/preset-env": "^7.2.3",
     "@s-ui/lint": "^2.20.0",
     "babel-core": "^7.0.0-bridge.0",
@@ -37,7 +38,6 @@
   },
   "homepage": "https://github.com/rmoralp/rm-js/blob/master/README.md",
   "dependencies": {
-    "@babel/polyfill": "^7.2.5",
     "qs": "^6.6.0"
   }
 }
